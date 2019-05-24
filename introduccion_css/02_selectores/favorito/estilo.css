@@ -8,16 +8,16 @@ body {
     font-family: Arial;
 }
 
-h1, h1, {    
-    color: #DC3522
+h1, h2 {    
+    color: #0b0c0b
 }
 
-h2, h2{
-    color: #009688
+a {
+    color: #26A69A
 }
 
-h1,h1{
-    color:#33691E
+p {
+    color:#0b0b0c
 }
 
 #biografia {
@@ -34,4 +34,27 @@ h1,h1{
 
 #vida_personal {
     background: #8ea71e
+}
+
+/* Herencia Css */
+nav {
+    background: #DDD;
+    padding: 10px
+    border: solid 1px gray;
+}
+
+nav a{
+    color: dodgerblue;
+    padding: 5px;
+    margin: 10px;
+    border: solid 1px dodgerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #FFF;
+    display: inline-block;
+} 
+
+nav a:hover {
+    background: dodgerblue;
+    color: white;
 }
