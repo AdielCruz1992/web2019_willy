@@ -1,0 +1,1 @@
+var nombre = prompt("Fecha de nacimiento")
